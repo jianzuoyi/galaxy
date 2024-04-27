@@ -134,7 +134,7 @@ define({
     "Delete(permanently)": "删除(永久)",
     "Build Dataset List": "构建数据集列表",
     "Build Dataset Pair": "构建配对数据集",
-    "Build List of Dataset Pairs": "构建配对数据集列表".
+    "Build List of Dataset Pairs": "构建配对数据集列表",
     "Build Collection from Rules": "通过规则构建集合",
     "Change Database/Build": "改变数据库/构建",
     "Add tags": "增加标签",
