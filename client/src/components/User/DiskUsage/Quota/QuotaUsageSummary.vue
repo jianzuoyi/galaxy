@@ -40,9 +40,9 @@ defineExpose({
                 <h3 v-localize class="h-sm">All your storage sources have unlimited disk space. Enjoy!</h3>
             </div>
             <div v-else>
-                <h2>
-                    You've got <b> {{ niceTotalQuota }} </b> of total disk quota
-                </h2>
+                <h2 v-localize>You've got</h2>
+                <h2 v-localize><b> {{ niceTotalQuota }} </b></h2>
+                <h2 v-localize>of total disk quota</h2>
                 <h3 v-localize class="h-sm">
                     This is the maximum disk space that you can use across all your storage sources. Unlimited storage
                     sources are not taken into account

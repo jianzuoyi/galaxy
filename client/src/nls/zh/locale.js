@@ -378,8 +378,12 @@ define({
 
     // ---------------------------------------------------------------------------- storage dashboard
     "Storage Dashboard": "存储面板",
-    "Here you can see an overview of your disk usage status.": "在这里，您可以看到您的磁盘使用情况概览。",
+    "Here you can see an overview of your disk usage status.": "在这里，可以看到您的磁盘使用情况概览。",
+    "You've got": "您总共有",
+    "of total disk quota": "的磁盘配额",
     "This is the maximum disk space that you can use across all your storage sources. Unlimited storage sources are not taken into account": "这是您可以在所有存储源中使用的最大磁盘空间。不受限制的存储源不计算在内。",
+    "storage source": "",
+    "% of disk quota used": "% 已使用磁盘配额",
     "Is your usage more than expected?": "您的使用量是否超出预期？",
     "Find out what is eating up your space and learn how to easily and safely free up some of it.": "找出是什么占用了您的空间，并了解如何轻松且安全地释放其中的一部分空间。",
     "Free up disk usage": "释放磁盘使用空间",
