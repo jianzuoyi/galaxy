@@ -336,8 +336,7 @@ define({
     "of disk space.": "的磁盘空间。",
     "If this is more than expected, please visit the": "如果这比预期的要多，请访问",
     "to free up disk space.": "以释放磁盘空间。",
-    "Your disk quota is:": "您的磁盘配额为：",
-
+    "Your disk quota is:": "您的磁盘配额为",
     "Manage Information": "管理您的信息",
     "Edit your email, addresses and custom parameters or change your public name.": "编辑您的邮箱、住址和自定义参数，或者改变您的公开名称。",
     "Change Password": "更改密码",
@@ -376,6 +375,18 @@ define({
     "Enable or disable the communication feature to chat with other users.": "启用或禁用与其他用户聊天的通信功能。",
         "Manage OpenIDs": "管理 OpenIDs",
     "Change communication settings": "修改通信设置",
+
+    // ---------------------------------------------------------------------------- storage dashboard
+    "Storage Dashboard": "存储面板",
+    "Here you can see an overview of your disk usage status.": "在这里，您可以看到您的磁盘使用情况概览。",
+    "This is the maximum disk space that you can use across all your storage sources. Unlimited storage sources are not taken into account": "这是您可以在所有存储源中使用的最大磁盘空间。不受限制的存储源不计算在内。",
+    "Is your usage more than expected?": "您的使用量是否超出预期？",
+    "Find out what is eating up your space and learn how to easily and safely free up some of it.": "找出是什么占用了您的空间，并了解如何轻松且安全地释放其中的一部分空间。",
+    "Free up disk usage": "释放磁盘使用空间",
+    "Visually explore your disk usage": "可视化地探索您的磁盘使用情况",
+    "Want to know what histories or datasets take up the most space in your account? Here you can explore your disk usage in a visual way.": "想知道哪些历史记录或数据集占用了您账户中的大部分空间吗？在这里，您可以以可视化的方式探索您的磁盘使用情况。",
+    "Explore now": "立即探索",
+
     // ---------------------------------------------------------------------------- shed-list-view
     "Configured Galaxy Tool Sheds": "配置 Galaxy Tool Sheds",
     // ---------------------------------------------------------------------------- repository-queue-view
@@ -542,6 +553,5 @@ define({
     "tool tooltip": false,
     // ----------------------------------------------------------------------------
 
-    "Storage Dashboard": "存储面板",
 
 });
