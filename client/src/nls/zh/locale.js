@@ -122,6 +122,7 @@ define({
     None: "反选",
     "For all selected": "为每个选定",
     "Select All": "全选",
+    "Clear selection": "清除选择",
 
     // ---- history-view-edit
     "Edit history tags": "编辑历史标签",
@@ -129,6 +130,15 @@ define({
     "Click to rename history": "点击以重命名历史",
     // multi operations
     "Operations on multiple datasets": "编辑多个数据集",
+    Hide: "隐藏",
+    "Delete(permanently)": "删除(永久)",
+    "Build Dataset List": "构建数据集列表",
+    "Build Dataset Pair": "构建配对数据集",
+    "Build List of Dataset Pairs": "构建配对数据集列表".
+    "Build Collection from Rules": "通过规则构建集合",
+    "Change Database/Build": "改变数据库/构建",
+    "Add tags": "增加标签",
+    "Remove tags": "移除标签",
     "Hide datasets": "隐藏数据集",
     "Unhide datasets": "显示数据集",
     "Delete datasets": "删除数据集",
