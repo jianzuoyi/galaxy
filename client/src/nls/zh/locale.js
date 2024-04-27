@@ -331,6 +331,13 @@ define({
     Tours: "引导",
     // ---------------------------------------------------------------------------- user-preferences
     "User preferences": "用户偏好设置",
+    "You are signed in as": "您以",
+    "and you are using": "的身份登录，并且您正在使用",
+    "of disk space.": "的磁盘空间。",
+    "If this is more than expected, please visit the": "如果这比预期的要多，请访问",
+    "to free up disk space.": "以释放磁盘空间。",
+    "Your disk quota is:": "您的磁盘配额为：",
+
     "Manage Information": "管理您的信息",
     "Edit your email, addresses and custom parameters or change your public name.": "编辑您的邮箱、住址和自定义参数，或者改变您的公开名称。",
     "Change Password": "更改密码",
@@ -357,8 +364,10 @@ define({
     "Select a Preferred storage location for the outputs of new jobs.": "选择新作业输出的首选存储位置。",
     "Delete Account": "删除账户",
     "Delete your account on this Galaxy server.": "删除您在该Galaxy服务器上的账户。",
-    "Sign Out": "退出",
-    "Click here to sign out of all sessions.": "点击这里退出所有会话。",
+    "Sign Out": "注销",
+    "Sign out": "注销",
+    "Click here to sign out of all sessions.": "点击这里注销所有会话。",
+    "Do you want to continue and sign out of all active sessions?": "您是否要继续并注销所有活动会话？",
 
     "Associate OpenIDs with your account.": "把 OpenIDs 和您的账号进行关联。",
     "Enable or disable the communication feature to chat with other users.": "启用或禁用与其他用户聊天的通信功能。",
