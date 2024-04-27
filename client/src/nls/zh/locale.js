@@ -43,9 +43,9 @@ define({
     "Workflow Invocations":"流程调用",
     "Galaxy Help": "帮助",
     "Community Hub": "社区",
-    About: 关于,
-    Notifications: 通知,
-    "Sign out": 退出,
+    About: "关于",
+    Notifications: "通知",
+    "Sign out": "退出",
 
     //Tooltip
     "Tools and Current History":"工具及当前历史",
@@ -60,10 +60,10 @@ define({
     "See Galaxy Training Materials": "查看 Galaxy 训练材料",
 
     // Activate bar
-    Upload: 上传,
-    Workflows: 流程,
-    Notifications: 通知,
-    Settings: 设置,
+    Upload: "上传",
+    Workflows: "流程",
+    Notifications: "通知",
+    Settings: "设置",
 
     // ---------------------------------------------------------------------------- histories
     // ---- history/options-menu
