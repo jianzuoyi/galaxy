@@ -57,7 +57,7 @@ define({
     "Administer this Galaxy": "管理您的 Galaxy",
     "Access resources": "访问资源",
     "Analysis home view": "数据分析主页",
-    "See Galaxy Training Materials": "查看 Galaxy 训练材料",
+    "See Galaxy Training Materials": "查看 Galaxy 培训材料",
 
     // Activate bar
     Upload: "上传",
@@ -95,6 +95,7 @@ define({
     "Delete Permanently": "永久删除",
     "Dataset Actions": "数据集操作",
     "Copy Datasets": "复制数据集",
+    "Purge All Deleted Content": "清除所有已删除的内容",
     "Dataset Security": "数据集安全",
     "Resume Paused Jobs": "恢复已暂停的任务",
     "Collapse Expanded Datasets": "折叠已展开的数据集",
@@ -409,6 +410,17 @@ define({
     Error: "错误",
     Close: "关闭",
     // ---------------------------------------------------------------------------- upload-view
+    "Upload Data": "上传数据",
+    "Upload from Disk or Web": "从磁盘或网络上传",
+    "Choose local files": "选择本地文件",
+    "Choose remote files": "选择远程文件",
+    "Paste/Fetch data": "粘贴/获取数据",
+    Start: "开始",
+    Pause: "暂停",
+    Reset: "重置",
+    Cancel: "关闭",
+    "Drop files here": "拖动文件到这里",
+    "Select a composite type": "选择一种复合类型",
     "Download from web or upload from disk": "从网页获取或者从本地磁盘上传数据",
     Collection: "集合数据",
     Composite: "复合数据",
@@ -417,21 +429,11 @@ define({
     "Upload configuration": "上传配置",
     // ---------------------------------------------------------------------------- default-view
     "FTP files": "FTP 文件",
-    Reset: "重置",
-    Pause: "暂停",
-    Start: "开始",
     "Choose FTP file": "选择 FTP 文件",
     "Choose local file": "选择本地磁盘文件",
     // ---------------------------------------------------------------------------- collection-view
     Build: "构建集",
     "Choose FTP files": "选择 FTP 文件",
-    "Upload Data": "上传数据",
-    "Upload from Disk or Web": "从磁盘或网络上传",
-    "Regular": "常规",
-    "Choose local files": "选择本地磁盘文件",
-    "Choose remote files": "选择远程文件",
-    "Paste/Fetch data": "粘贴数据或链接",
-    "Drop files here": "拖动文件到这里",
     // ---------------------------------------------------------------------------- composite-row
     Select: "选择",
     // ---------------------------------------------------------------------------- list-of-pairs-collection-creator
@@ -527,5 +529,7 @@ define({
     // ---------------------------------------------------------------------------- workflow_editor_tests
     "tool tooltip": false,
     // ----------------------------------------------------------------------------
+
+    "Storage Dashboard": "存储面板",
 
 });
