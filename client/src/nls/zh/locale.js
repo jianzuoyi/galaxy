@@ -45,7 +45,7 @@ define({
     "Community Hub": "社区",
     About: "关于",
     Notifications: "通知",
-    "Sign out": "退出",
+    "Sign Out": "退出",
 
     //Tooltip
     "Tools and Current History":"工具及当前历史",
@@ -64,6 +64,9 @@ define({
     Workflows: "流程",
     Notifications: "通知",
     Settings: "设置",
+    "Interactive Tools": "交互式工具",
+    "Tools": "工具",
+    "History Multiview": "历史多视图",
 
     // ---------------------------------------------------------------------------- histories
     // ---- history/options-menu
@@ -131,7 +134,7 @@ define({
     // multi operations
     "Operations on multiple datasets": "编辑多个数据集",
     Hide: "隐藏",
-    "Delete(permanently)": "删除(永久)",
+    "Delete (permanently)": "删除(永久)",
     "Build Dataset List": "构建数据集列表",
     "Build Dataset Pair": "构建配对数据集",
     "Build List of Dataset Pairs": "构建配对数据集列表",
