@@ -2,6 +2,7 @@
 /* any suggestions, please contact me: ishenweiyan@foxmail.com */
 define({
     // ----------------------------------------------------------------------------- masthead
+    China: "中国",
     "Analyze Data": "数据分析",
     Workflow: "工作流程",
     "Shared Data": "数据共享",
@@ -39,16 +40,30 @@ define({
     "Histories shared with me": "分享给我的历史",
     Pages: "我的页面",
     Visualizations: "我的可视化",
+    "Workflow Invocations":"流程调用",
+    "Galaxy Help": "帮助",
+    "Community Hub": "社区",
+    About: 关于,
+    Notifications: 通知,
+    "Sign out": 退出,
 
     //Tooltip
+    "Tools and Current History":"工具及当前历史",
+    "Chain tools into workflows": "将工具链接到流程中",
+    "Visualize datasets": "数据集可视化",
     "Account and saved data": "账号及数据保存",
     "Account registration or login": "注册或登录",
     "Support, contact, and community": "社区支持与联系",
     "Administer this Galaxy": "管理您的 Galaxy",
-    "Visualize datasets": "数据集可视化",
     "Access resources": "访问资源",
-    "Chain tools into workflows": "将工具链接到流程中",
     "Analysis home view": "数据分析主页",
+    "See Galaxy Training Materials", "查看 Galaxy 训练材料",
+
+    // Activate bar
+    Upload: 上传,
+    Workflows: 流程,
+    Notifications: 通知,
+    Settings: 设置,
 
     // ---------------------------------------------------------------------------- histories
     // ---- history/options-menu
