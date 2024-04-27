@@ -46,7 +46,7 @@ define({
     "Support, contact, and community": "社区支持与联系",
     "Administer this Galaxy": "管理您的 Galaxy",
     "Visualize datasets": "数据集可视化",
-    "Access published resources": "访问已发布的资源",
+    "Access resources": "访问资源",
     "Chain tools into workflows": "将工具链接到流程中",
     "Analysis home view": "数据分析主页",
 
@@ -233,7 +233,7 @@ define({
     Groups: false,
     "API keys": false,
     "Impersonate a user": false,
-    Data: false,
+    Data: "数据",
     Quotas: false,
     Roles: false,
     "Local data": false,
