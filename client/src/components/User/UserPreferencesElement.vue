@@ -41,7 +41,7 @@ defineProps({
             <a v-else :id="id" href="#" @click="$emit('click')">
                 <b v-localize>{{ title }}</b>
             </a>
-            <div class="form-text text-muted">
+            <div v-localize class="form-text text-muted">
                 {{ description }}
             </div>
             <slot />
