@@ -57,7 +57,7 @@ define({
     "Administer this Galaxy": "管理您的 Galaxy",
     "Access resources": "访问资源",
     "Analysis home view": "数据分析主页",
-    "See Galaxy Training Materials", "查看 Galaxy 训练材料",
+    "See Galaxy Training Materials": "查看 Galaxy 训练材料",
 
     // Activate bar
     Upload: 上传,
@@ -70,15 +70,21 @@ define({
     History: "历史",
     "History Actions": "历史记录操作",
     "History Lists": "历史记录列表",
+    "Show Histories Side-by-Side": "并列显示历史",
     // Saved histories is defined above.
     "Saved Histories": "保存的历史",
     "Histories Shared with Me": "分享给您历史",
     "Current History": "当前历史记录",
-    "Create New": "创建新的历史",
-    Copy: "复制历史",
+    "Create new history": "创建新的历史",
+    "Switch to history": "切换历史",
+    "History options": "历史选项",
+    "Copy this History": "复制历史",
+    "Delete this History": "删除历史",
+    "Archive History": "归档历史",
     "Share or Publish": "分享或发布历史",
     "Show Structure": "展示结构",
     "Extract Workflow": "提取为工作流",
+    "Show Invocations": "显示流程调用",
     "Set Permissions": "设置权限",
     "Make Private": "私有化数据",
     // Delete is defined elsewhere, but is also in this menu.
@@ -115,6 +121,7 @@ define({
     All: "全选",
     None: "反选",
     "For all selected": "为每个选定",
+    "Select All": "全选",
 
     // ---- history-view-edit
     "Edit history tags": "编辑历史标签",
@@ -483,7 +490,4 @@ define({
     "tool tooltip": false,
     // ----------------------------------------------------------------------------
 
-    ja: true,
-    fr: true,
-    zh: true,
 });
