@@ -109,7 +109,7 @@ onMounted(async () => {
                 pill
                 @click="onRefresh">
                 <b-spinner v-if="isRefreshing" small />
-                <span v-localize v-else>Refresh</span>
+                <span v-localize>Refresh</span>
             </button>
             <b-alert v-if="isRefreshing" class="refreshing-alert mt-2" variant="info" show dismissible fade>
                 Recalculating disk usage... this may take some time, please check back later.
