@@ -65,7 +65,7 @@ define({
     "Log in for details.": "登录查看详情。",
     "Click for details.": "点击查看详情。",
 
-    // ---------------------------------------------------------------------------- histories
+    // ---------------------------------------------------------------------------- panels
     Tools: "工具",
     "Show favorites": "显示收藏夹",
     "Show panel options": "显示面板选项",
@@ -73,6 +73,16 @@ define({
     "Clear Search (esc)": "清除搜索(esc)",
     "search tools": "搜索工具",
     "Advanced Tool Search": "高级工具搜索",
+    "All workflows": "所有流程",
+
+    "Reset selection to show 4 most recently updated histories instead": "重置选择以显示最近更新的4个历史记录",
+    "Currently showing 4 most recently updated histories in Multiview": "当前在多视图中显示最近更新的4个历史记录",
+    "1 history pinned. Click here to reset": "1个历史记录已固定，点击此处重置",
+    "Select histories to pin to Multiview": "选择要固定到多视图的历史记录",
+    "Open History Multiview": "打开历史记录多视图",
+    "Data Managers": "数据管理器",
+    "Show Sections": "显示Sections",
+    "Hide Sections": "隐藏Sections",
 
     // Activate bar
     Upload: "上传",
