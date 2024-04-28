@@ -65,6 +65,15 @@ define({
     "Log in for details.": "登录查看详情。",
     "Click for details.": "点击查看详情。",
 
+    // ---------------------------------------------------------------------------- histories
+    Tools: "工具",
+    "Show favorites": "显示收藏夹",
+    "Show panel options": "显示面板选项",
+    "Toggle Advanced Search": "切换到高级搜索",
+    "Clear Search (esc)": "清除搜索(esc)",
+    "search tools": "搜索工具",
+    "Advanced Tool Search": "高级工具搜索",
+
     // Activate bar
     Upload: "上传",
     Workflows: "流程",
