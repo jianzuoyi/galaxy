@@ -87,7 +87,7 @@ function onClick(evt: MouseEvent): void {
             <small v-else>No tooltip available for this item</small>
             <div v-if="options" class="nav-options p-1">
                 <router-link v-for="(option, index) in options" :key="index" :to="option.value">
-                    <b-button size="sm" variant="outline-primary" class="w-100 my-1 text-break text-light">
+                    <b-button v-localize size="sm" variant="outline-primary" class="w-100 my-1 text-break text-light">
                         {{ option.name }}
                     </b-button>
                 </router-link>
