@@ -107,6 +107,8 @@ define({
     "Select histories to show in History Multiview": "选择要在历史多视图中显示的历史记录",
     "Show all datasets": "显示所有数据集",
     "View your dataset": "查看您的数据集",
+    "You have no unread notifications": "您没有未读通知",
+    "Edit preferences": "编辑偏好设置",
 
     // ---------------------------------------------------------------------------- histories
     // ---- history/options-menu
