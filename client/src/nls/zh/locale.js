@@ -570,14 +570,25 @@ define({
     "Download from URL or upload files from disk": "从 URL 或者本地磁盘上传文件",
     // ---------------------------------------------------------------------------- workflow_editor_tests
     "tool tooltip": false,
-    // ---------------------------------------------------------------------------- log in
-    "Welcome to Galaxy, please log in": "欢迎来到Galaxy，请登录",
-    "Public Name or Email Address": "公开名称或邮箱地址",
+    // ---------------------------------------------------------------------------- register and log in
+    "Create a Galaxy account": "创建一个Galaxy账户",
+    "Email address": "邮箱地址",
     "Password": "密码",
+    "Confirm password": "确认密码",
+    "Public name": "公开名称",
+    "Subscribe to mailing list": "订阅邮件列表",
+    "Your public name is an identifier that will be used to generate addresses for information you share publicly. Public names must be at least three characters in length and contain only lower-case letters, numbers, dots, underscores, and dashes ('.', '_', '-').": "您的公开名称是一个标识符，将用于为您公开共享的信息生成地址。公开名称长度至少为3个字符，只能包含小写字母、数字、点、下划线和横线。（“.”，“_”，“-”）。",
+    "Create": "创建",
+    "Already have an account?": "已经有了一个账户？",
+    "Log in here.": "请登录。",
+
+    "Welcome to Galaxy, please log in": "欢迎来到 Galaxy，请登录",
+    "Public Name or Email Address": "公开名称或邮箱地址",
     "Forgot password?": "忘记密码？",
     "Click here to reset your password.": "请点击此处重置您的密码。",
     "Don't have an account?": "还没有账号？",
-    "Register here": "这里注册",
+    "Register here.": "这里注册。",
+
 
 
     // ----------------------------------------------------------------------------
