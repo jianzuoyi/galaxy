@@ -84,16 +84,29 @@ define({
     "Show Sections": "显示Sections",
     "Hide Sections": "隐藏Sections",
 
-    // Activate bar
+    // ---------------------------------------------------------------------------- activity bar
     Upload: "上传",
+    "Tools": "工具",
     Workflows: "流程",
+    "Workflow Invocations": "流程调用",
+    "Interactive Tools": "交互式工具",
+    // "Visualize", elsewhere
+    "Histories": "历史",
+    "History Multiview": "历史多视图",
+    "Datasets": "数据集",
     Notifications: "通知",
     Settings: "设置",
-    "Interactive Tools": "交互式工具",
-    "Tools": "工具",
-    "History Multiview": "历史多视图",
+
+    // "Download from URL or upload files from disk", elsewhere
     "Search and run tools": "搜索并运行工具",
     "Search and run workflows": "搜索并运行流程",
+    "Show active interactive tools": "显示交互式工具",
+    "Show all workflow runs": "显示所有流程调用",
+    // "Visualize datasets", elsewhere
+    "Show all histories": "显示所有历史记录",
+    "Select histories to show in History Multiview": "选择要在历史多视图中显示的历史记录",
+    "Show all datasets": "显示所有数据集",
+    "View your dataset": "查看您的数据集",
 
     // ---------------------------------------------------------------------------- histories
     // ---- history/options-menu
