@@ -169,7 +169,7 @@ defineExpose({
     <div class="upload-wrapper">
         <div class="upload-header">&nbsp;</div>
         <div class="upload-box">
-            <div v-show="showHelper" class="upload-helper">Select a composite type</div>
+            <div v-localize v-show="showHelper" class="upload-helper">Select a composite type</div>
             <div v-show="!showHelper">
                 <CompositeRow
                     v-for="(uploadItem, uploadIndex) in uploadItems"

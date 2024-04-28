@@ -81,7 +81,7 @@ defineExpose({
         no-enforce-focus
         hide-footer>
         <template v-slot:modal-header>
-            <h2 class="title h-sm" tabindex="0">{{ options.title }}</h2>
+            <h2 v-localize class="title h-sm" tabindex="0">{{ options.title }}</h2>
         </template>
         <UploadContainer
             v-if="currentHistoryId"

@@ -60,8 +60,8 @@ define({
     "Access resources": "访问资源",
     "Analysis home view": "数据分析主页",
     "See Galaxy Training Materials": "查看 Galaxy 培训材料",
-    "Log in for details.": "登录查看详细信息。",
-    "Click for details.": "点击查看详细信息。",
+    "Log in for details.": "登录查看详情。",
+    "Click for details.": "点击查看详情。",
 
     // Activate bar
     Upload: "上传",
@@ -445,6 +445,15 @@ define({
     // ---------------------------------------------------------------------------- upload-view
     "Upload Data": "上传数据",
     "Upload from Disk or Web": "从磁盘或网络上传",
+    "Download from web or upload from disk": "从网页获取或者从本地磁盘上传数据",
+    Collection: "集合数据",
+    Composite: "复合数据",
+    Regular: "常规数据",
+    // ---------------------------------------------------------------------------- default-row
+    //"Upload configuration": "上传配置",
+    "Download data from the web by entering URLs (one per line) or directly paste content.": "通过输入网址（每行一个）从网络下载数据，或者直接粘贴内容。",
+    "You added {{ counterAnnounce }} file(s) to the queue. Add more files or click 'Start' to proceed.": "您已将 {{ counterAnnounce }} 个文件添加到队列中。添加更多文件或点击“开始”以继续。",
+    // ---------------------------------------------------------------------------- default-view
     "Choose local files": "选择本地文件",
     "Choose remote files": "选择远程文件",
     "Paste/Fetch data": "粘贴/获取数据",
@@ -453,22 +462,19 @@ define({
     Reset: "重置",
     Cancel: "关闭",
     "Drop files here": "拖动文件到这里",
-    "Select a composite type": "选择一种复合类型",
-    "Download from web or upload from disk": "从网页获取或者从本地磁盘上传数据",
-    Collection: "集合数据",
-    Composite: "复合数据",
-    Regular: "常规数据",
-    // ---------------------------------------------------------------------------- default-row
-    "Upload configuration": "上传配置",
-    // ---------------------------------------------------------------------------- default-view
-    "FTP files": "FTP 文件",
-    "Choose FTP file": "选择 FTP 文件",
-    "Choose local file": "选择本地磁盘文件",
+    //"FTP files": "FTP 文件",
+    //"Choose FTP file": "选择 FTP 文件",
     // ---------------------------------------------------------------------------- collection-view
-    Build: "构建集",
-    "Choose FTP files": "选择 FTP 文件",
+    Build: "构建",
+    //"Choose FTP files": "选择 FTP 文件",
     // ---------------------------------------------------------------------------- composite-row
     Select: "选择",
+    "Select a composite type": "选择一种复合类型",
+    // ---------------------------------------------------------------------------- rule-based
+    "Insert tabular source data to extract collection files and metadata.": "插入表格源数据以提取集合文件和元数据。",
+    "Paste data": "粘贴数据",
+    "Choose dataset": "选择数据集",
+    // Choose remote files/Build/Reset/Close, defined elsewhere
     // ---------------------------------------------------------------------------- list-of-pairs-collection-creator
     "Create a collection of paired datasets": "创建一个配对数据的集合",
     // ---------------------------------------------------------------------------- history-panel

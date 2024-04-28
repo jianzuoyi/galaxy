@@ -149,7 +149,7 @@ function inputRemote() {
             </BButton>
             <BButton @click="inputRemote">
                 <FontAwesomeIcon icon="fa-folder-open" />
-                <span v-localize>Choose remote file</span>
+                <span v-localize>Choose remote files</span>
             </BButton>
             <BButton
                 id="btn-build"
@@ -157,13 +157,13 @@ function inputRemote() {
                 title="Build"
                 :variant="sourceContent ? 'primary' : ''"
                 @click="eventBuild">
-                <span>Build</span>
+                <span v-localize>Build</span>
             </BButton>
             <BButton id="btn-reset" title="Reset" :disabled="!sourceContent" @click="eventReset">
-                <span>Reset</span>
+                <span v-localize>Reset</span>
             </BButton>
             <BButton id="btn-close" title="Close" @click="$emit('dismiss')">
-                <span>Close</span>
+                <span v-localize>Close</span>
             </BButton>
         </div>
     </div>
