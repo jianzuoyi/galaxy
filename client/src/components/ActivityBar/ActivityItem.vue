@@ -77,7 +77,7 @@ function onClick(evt: MouseEvent): void {
                             </span>
                             <FontAwesomeIcon :icon="icon" />
                         </div>
-                        <TextShort v-if="title" :text="title" class="nav-title" />
+                        <TextShort v-if="title" :text="title | l" class="nav-title" />
                     </span>
                 </b-nav-item>
             </div>
