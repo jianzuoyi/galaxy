@@ -83,7 +83,7 @@ function onClick(evt: MouseEvent): void {
             </div>
         </template>
         <div class="text-center px-2 py-1">
-            <small v-if="tooltip">{{ tooltip }}</small>
+            <small v-if="tooltip">{{ tooltip | l }}</small>
             <small v-else>No tooltip available for this item</small>
             <div v-if="options" class="nav-options p-1">
                 <router-link v-for="(option, index) in options" :key="index" :to="option.value">
