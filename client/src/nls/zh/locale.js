@@ -25,7 +25,6 @@ define({
     Search: "搜索",
     "Mailing Lists": "邮件列表",
     Videos: "视频",
-    Wiki: false,
     "How to Cite Galaxy": "引用",
     "Interactive Tours": "使用引导",
     Login: "登录",
@@ -149,7 +148,6 @@ define({
     "Export History to File": "导出历史到文件",
     "Other Actions": "其他操作",
     "Import from File": "从文件导入",
-    Webhooks: false,
 
     // ---- history-model
     // ---- history-view
@@ -296,26 +294,6 @@ define({
     "Tool Help": "工具帮助",
 
     // ---------------------------------------------------------------------------- admin
-    "Reset passwords": false,
-    "Search Tool Shed": false,
-    "Monitor installing repositories": false,
-    "Manage installed tools": false,
-    "Reset metadata": false,
-    "Download local tool": false,
-    "Tool lineage": false,
-    "Reload a tool's configuration": false,
-    "View Tool Error Logs": false,
-    "Manage Display Whitelist": false,
-    "Manage Tool Dependencies": false,
-    Users: false,
-    Groups: false,
-    "API keys": false,
-    "Impersonate a user": false,
-    //Data: "数据",
-    Quotas: false,
-    Roles: false,
-    "Local data": false,
-    "Form Definitions": false,
 
     // ---------------------------------------------------------------------------- Window Manager
     "Enable/Disable Window Manager": "启用/禁用 Window Manager",
@@ -329,7 +307,7 @@ define({
     Subscript: "下标",
     Superscript: "上标",
     // ---------------------------------------------------------------------------- data
-    Trackster: false,
+    //Trackster: false,
     Visualize: "可视化",
     // ---------------------------------------------------------------------------- dataset-error
     "Any additional comments you can provide regarding what you were doing at the time of the bug.":
@@ -442,16 +420,16 @@ define({
     // ---------------------------------------------------------------------------- repo-status-view
     "Repository Status": "存储卡状态",
     // ---------------------------------------------------------------------------- workflows-view
-    "Workflows Missing Tools": false,
+    //"Workflows Missing Tools": false,
     // ---------------------------------------------------------------------------- tool-form-base
-    "See in Tool Shed": false,
-    Requirements: false,
+    //"See in Tool Shed": false,
+    //Requirements: false,
     Download: "下载",
     Share: "分享",
     Search: "搜索",
     // ---------------------------------------------------------------------------- tool-form-composite
-    "Workflow submission failed": false,
-    "Run workflow": false,
+    //"Workflow submission failed": false,
+    //"Run workflow": false,
     // ---------------------------------------------------------------------------- tool-form
     "Run Tool": "运行",
     "Job submission failed": "任务提交失败",
@@ -464,19 +442,16 @@ define({
     // ---------------------------------------------------------------------------- workflow
     Workflows: "流程",
     // ---------------------------------------------------------------------------- workflow-view
-    "Copy and insert individual steps": false,
+    //"Copy and insert individual steps": false,
     Warning: "警告",
     // ---------------------------------------------------------------------------- workflow-forms
-    "An email notification will be sent when the job has completed.": false,
-    "Add a step label.": false,
-    "Assign columns": false,
+    //"An email notification will be sent when the job has completed.": false,
     // ---------------------------------------------------------------------------- form-repeat
-    "Delete this repeat block": false,
-    placeholder: false,
-    Repeat: false,
+    //"Delete this repeat block": false,
+    //placeholder: false,
+    //Repeat: false,
     // ---------------------------------------------------------------------------- ui-select-genomespace
-    "Browse GenomeSpace": false,
-    Browse: false,
+    //"Browse GenomeSpace": false,
     // ---------------------------------------------------------------------------- ui-frames
     Error: "错误",
     Close: "关闭",
@@ -521,71 +496,50 @@ define({
     "History options": "历史记录选项",
     "Refresh history": "刷新历史记录",
     // ---------------------------------------------------------------------------- admin-panel
-    "View error logs": false,
-    "View lineage": false,
-    "Manage dependencies": false,
-    "Manage whitelist": false,
-    "Manage metadata": false,
-    "Manage tools": false,
-    "Monitor installation": false,
-    "Install new tools": false,
-    "Tool Management": false,
-    Forms: false,
-    Roles: false,
-    Groups: false,
-    Quotas: false,
-    Users: false,
-    "User Management": false,
-    "Manage jobs": false,
-    "Display applications": false,
-    "Data tables": false,
-    "Data types": false,
-    Server: false,
     // ---------------------------------------------------------------------------- circster
-    "Could Not Save": false,
-    "Saving...": false,
-    "Add tracks": false,
+    //"Could Not Save": false,
+    //"Saving...": false,
+    //"Add tracks": false,
     // ---------------------------------------------------------------------------- trackster
-    "New Visualization": false,
-    "Add Data to Saved Visualization": false,
-    "Close visualization": false,
-    Circster: false,
-    Bookmarks: false,
-    "Add group": false,
+    //"New Visualization": false,
+    //"Add Data to Saved Visualization": false,
+    //"Close visualization": false,
+    //Circster: false,
+    //Bookmarks: false,
+    //"Add group": false,
     // ---------------------------------------------------------------------------- sweepster
-    "Remove parameter from tree": false,
-    "Add parameter to tree": false,
-    Remove: false,
+    //"Remove parameter from tree": false,
+    //"Add parameter to tree": false,
     // ---------------------------------------------------------------------------- visualization
-    "Select datasets for new tracks": false,
+    //"Select datasets for new tracks": false,
     Libraries: "库",
     // ---------------------------------------------------------------------------- phyloviz
-    "Zoom out": false,
-    "Zoom in": false,
-    "Phyloviz Help": false,
-    "Save visualization": false,
-    "PhyloViz Settings": false,
-    Title: false,
+    //"Zoom out": false,
+    //"Zoom in": false,
+    //"Phyloviz Help": false,
+    //"Save visualization": false,
+    //"PhyloViz Settings": false,
+    //Title: false,
     // ---------------------------------------------------------------------------- filters
-    "Filtering Dataset": false,
-    "Filter Dataset": false,
+    //"Filtering Dataset": false,
+    //"Filter Dataset": false,
     // ---------------------------------------------------------------------------- tracks
-    "Show individual tracks": false,
-    "Trackster Error": false,
-    "Tool parameter space visualization": false,
-    Tool: false,
-    "Set as overview": false,
-    "Set display mode": false,
-    Filters: false,
-    "Show composite track": false,
-    "Edit settings": false,
+//    "Show individual tracks": false,
+//    "Trackster Error": false,
+//    "Tool parameter space visualization": false,
+//    Tool: false,
+//    "Set as overview": false,
+//    "Set display mode": false,
+//    Filters: false,
+//    "Show composite track": false,
+//    "Edit settings": false,
     // ---------------------------------------------------------------------------- modal_tests
-    "Test title": false,
+    //"Test title": false,
     // ---------------------------------------------------------------------------- popover_tests
-    "Test Title": false,
-    "Test button": false,
+    //"Test Title": false,
+    //"Test button": false,
     // ---------------------------------------------------------------------------- ui_tests
-    title: false,
+    //title: false,
     // ---------------------------------------------------------------------------- user-custom-builds
     "Create new Build": "创建新的构建集",
     "Delete custom build.": "删除自定义的构建集。",
@@ -594,17 +548,17 @@ define({
     "Next in History": "下一个历史记录",
     "Previous in History": "上一个历史记录",
     // ---------------------------------------------------------------------------- generic-nav-view
-    "Chat online": false,
+    //"Chat online": false,
     // ---------------------------------------------------------------------------- ui-select-content
-    "Multiple collections": false,
-    "Dataset collections": false,
-    "Dataset collection": false,
-    "Multiple datasets": false,
-    "Single dataset": false,
+//    "Multiple collections": false,
+//    "Dataset collections": false,
+//    "Dataset collection": false,
+//    "Multiple datasets": false,
+//    "Single dataset": false,
     // ---------------------------------------------------------------------------- upload-button
     "Download from URL or upload files from disk": "从 URL 或者本地磁盘上传文件",
     // ---------------------------------------------------------------------------- workflow_editor_tests
-    "tool tooltip": false,
+    //"tool tooltip": false,
     // ---------------------------------------------------------------------------- register and log in
     "Create a Galaxy account": "创建一个Galaxy账户",
     "Email address": "邮箱地址",
