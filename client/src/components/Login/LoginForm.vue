@@ -60,7 +60,7 @@
                             </b-card-body>
                             <b-card-footer>
                                 <span v-if="!connectExternalProvider">
-                                    Don't have an account?
+                                    <span v-localize>Don't have an account?</span>
                                     <span v-if="allowUserCreation">
                                         <a
                                             id="register-toggle"

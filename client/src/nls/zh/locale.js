@@ -3,11 +3,12 @@
 define({
     // ----------------------------------------------------------------------------- masthead
     //"Analyze Data": "数据分析",
-    Workflow: "工作流程",
+    Workflow: "流程",
     Visualization: "可视化",
     Data: "数据",
     Admin: "管理员",
     Help: "帮助",
+    "Log in or Register": "注册登录",
     User: "用户",
     Using: "已使用",
 
@@ -29,7 +30,6 @@ define({
     "Interactive Tours": "使用引导",
     Login: "登录",
     Register: "注册",
-    "Log in or Register": "注册登录",
     "Signed in as": "您已登录为",
     Preferences: "用户偏好",
     "Custom Builds": "自定义构建集",
@@ -54,10 +54,12 @@ define({
     "Chain tools into workflows": "将工具链接到流程中",
     "Visualize datasets": "数据集可视化",
     "Account and saved data": "账号及数据保存",
-    "Account registration or login": "注册或登录",
+    //"Account registration or login": "注册或登录",
+    "Log in or register a new account": "登录或注册一个新账号",
     "Support, contact, and community": "社区支持与联系",
     "Administer this Galaxy": "管理您的 Galaxy",
     "Access resources": "访问资源",
+    "Access published resources": "访问公共资源",
     "Analysis home view": "数据分析主页",
     "See Galaxy Training Materials": "查看 Galaxy 培训材料",
     "Log in for details.": "登录查看详情。",
@@ -336,8 +338,8 @@ define({
     // ---------------------------------------------------------------------------- user-preferences
     "User preferences": "用户偏好设置",
     "You are signed in as": "您以",
-    "and you are using": "的身份登录，并且您正在使用",
-    "of disk space.": "的磁盘空间。",
+    "and you are using": "的身份登录，目前已使用",
+    "of disk space.": "磁盘空间。",
     "If this is more than expected, please visit the": "如果这比预期的要多，请访问",
     "to free up disk space.": "以释放磁盘空间。",
     "Your disk quota is:": "您的磁盘配额为",
@@ -453,7 +455,7 @@ define({
     //"Upload configuration": "上传配置",
     "Download data from the web by entering URLs (one per line) or directly paste content.": "通过输入网址（每行一个）从网络下载数据，或者直接粘贴内容。",
     "You added": "您已将",
-    "file(s) to the queue. Add more files or click 'Start' to proceed.": "个文件添加到队列中。添加更多文件或点击'开始'以继续。",
+    "file(s) to the queue. Add more files or click 'Start' to proceed.": "个文件添加到队列中。添加更多文件或点击 '开始' 以继续。",
     // ---------------------------------------------------------------------------- default-view
     "Choose local files": "选择本地文件",
     "Choose remote files": "选择远程文件",
@@ -568,7 +570,15 @@ define({
     "Download from URL or upload files from disk": "从 URL 或者本地磁盘上传文件",
     // ---------------------------------------------------------------------------- workflow_editor_tests
     "tool tooltip": false,
+    // ---------------------------------------------------------------------------- log in
+    "Welcome to Galaxy, please log in": "欢迎来到Galaxy，请登录",
+    "Public Name or Email Address": "公开名称或邮箱地址",
+    "Password": "密码",
+    "Forgot password?": "忘记密码？",
+    "Click here to reset your password.": "请点击此处重置您的密码。",
+    "Don't have an account?": "还没有账号？",
+    "Register here": "这里注册",
+
+
     // ----------------------------------------------------------------------------
-
-
 });
