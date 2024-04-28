@@ -544,7 +544,6 @@ define({
     // ---------------------------------------------------------------------------- circster
     "Could Not Save": false,
     "Saving...": false,
-    Settings: false,
     "Add tracks": false,
     // ---------------------------------------------------------------------------- trackster
     "New Visualization": false,

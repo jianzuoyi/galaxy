@@ -194,11 +194,11 @@ function onToggleSidebar(toggle: string, to: string | null = null) {
                     title="Notifications"
                     @click="onToggleSidebar('notifications')" />
                 <ActivityItem
-                    :id="activity-settings"
-                    :icon="cog"
+                    id="activity-settings"
+                    icon="cog"
                     :is-active="isActiveSideBar('settings')"
-                    :title="Settings"
-                    :tooltip="Edit preferences"
+                    title="Settings"
+                    tooltip="Edit preferences"
                     @click="onToggleSidebar('settings')" />
             </b-nav>
         </div>
