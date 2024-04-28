@@ -342,8 +342,10 @@ defineExpose({
                 </div>
             </div>
             <div v-else>
-                <div v-localize v-if="!isRunning">
-                    You added {{ counterAnnounce }} file(s) to the queue. Add more files or click 'Start' to proceed.
+                <div v-if="!isRunning">
+                    <span v-localize>You added</span>
+                    <span v-localize> {{ counterAnnounce }} </span>
+                    <span v-localize>file(s) to the queue. Add more files or click 'Start' to proceed.</span>
                 </div>
                 <div v-else>Please wait...{{ counterAnnounce }} out of {{ counterRunning }} remaining...</div>
             </div>

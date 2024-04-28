@@ -452,7 +452,8 @@ define({
     // ---------------------------------------------------------------------------- default-row
     //"Upload configuration": "上传配置",
     "Download data from the web by entering URLs (one per line) or directly paste content.": "通过输入网址（每行一个）从网络下载数据，或者直接粘贴内容。",
-    "You added <% counterAnnounce %> file(s) to the queue. Add more files or click 'Start' to proceed.": "您已将 <% counterAnnounce %> 个文件添加到队列中。添加更多文件或点击“开始”以继续。",
+    "You added": "您已将",
+    "file(s) to the queue. Add more files or click 'Start' to proceed.": "个文件添加到队列中。添加更多文件或点击'开始'以继续。",
     // ---------------------------------------------------------------------------- default-view
     "Choose local files": "选择本地文件",
     "Choose remote files": "选择远程文件",
