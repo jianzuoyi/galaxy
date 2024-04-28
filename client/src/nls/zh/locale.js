@@ -92,6 +92,8 @@ define({
     "Interactive Tools": "交互式工具",
     "Tools": "工具",
     "History Multiview": "历史多视图",
+    "Search and run tools": "搜索并运行工具",
+    "Search and run workflows": "搜索并运行流程",
 
     // ---------------------------------------------------------------------------- histories
     // ---- history/options-menu
