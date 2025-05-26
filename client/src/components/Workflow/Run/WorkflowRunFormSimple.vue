@@ -368,7 +368,7 @@ async function onExecute() {
                         <GButton
                             tooltip
                             size="small"
-                            title="Workflow Run Settings"
+                            :title="localize('Workflow Run Settings')"
                             transparent
                             color="blue"
                             class="workflow-run-settings"
@@ -392,7 +392,7 @@ async function onExecute() {
                         <div class="mr-4">
                             <BFormCheckbox
                                 v-model="useCachedJobs"
-                                title="This may skip executing jobs that you have already run.">
+                                :title="localize('This may skip executing jobs that you have already run.')">
                                 <HelpText
                                     uri="galaxy.workflows.runtimeSettings.useCachedJobs"
                                     text="Attempt to re-use jobs with identical parameters?" />
@@ -426,7 +426,7 @@ async function onExecute() {
                                 color="blue"
                                 size="small"
                                 class="workflow-expand-form-link"
-                                title="Switch to the legacy workflow form"
+                                :title="localize('Switch to the legacy workflow form')"
                                 @click="$emit('showAdvanced')">
                                 Expanded workflow form <FontAwesomeIcon :icon="faArrowRight" />
                             </GButton>

@@ -123,7 +123,7 @@
         </b-modal>
         <b-modal
             v-model="showLogoutModal"
-            title="Sign out"
+            :title="localize('Sign out')"
             title-class="font-weight-bold"
             ok-title="Sign out"
             @ok="signOut">
