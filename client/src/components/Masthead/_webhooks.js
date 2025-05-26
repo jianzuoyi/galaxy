@@ -1,5 +1,6 @@
 import Utils from "utils/utils";
 import Webhooks from "utils/webhooks";
+import localize from "@/utils/localization";
 
 export function loadWebhookMenuItems(items) {
     Webhooks.load({
@@ -11,7 +12,7 @@ export function loadWebhookMenuItems(items) {
                         id: webhook.id,
                         icon: webhook.config.icon,
                         url: webhook.config.url,
-                        tooltip: webhook.config.tooltip,
+                        tooltip: localize(webhook.config.tooltip),
                         /*jslint evil: true */
                         onclick: webhook.config.function && new Function(webhook.config.function),
                         target: "_parent",

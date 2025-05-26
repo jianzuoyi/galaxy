@@ -41,7 +41,7 @@
             @updatePreferredObjectStoreId="onUpdatePreferredObjectStoreId"
             @onChangeVersion="onChangeVersion">
             <div class="mt-2 mb-4">
-                <Heading h2 separator bold size="sm"> Tool Parameters </Heading>
+                <Heading h2 separator bold size="sm" v-localize> Tool Parameters </Heading>
                 <FormDisplay
                     :id="toolId"
                     :inputs="formConfig.inputs"
@@ -54,13 +54,13 @@
             </div>
 
             <div class="mt-2 mb-4">
-                <Heading h2 separator bold size="sm"> Additional Options </Heading>
+                <Heading h2 separator bold size="sm" v-localize> Additional Options </Heading>
                 <FormElement
                     v-if="emailAllowed(config, currentUser)"
                     id="send_email_notification"
                     v-model="useEmail"
-                    title="Email notification"
-                    help="Send an email notification when the job completes."
+                    :title="localize('Email notification')"
+                    :help="localize('Send an email notification when the job completes.')"
                     type="boolean" />
                 <FormElement
                     v-if="remapAllowed"
@@ -85,7 +85,7 @@
             <template v-slot:buttons>
                 <ButtonSpinner
                     id="execute"
-                    title="Run Tool"
+                    :title="localize('Run Tool')"
                     :disabled="!canMutateHistory"
                     size="small"
                     :wait="showExecuting"
@@ -94,7 +94,7 @@
             </template>
             <template v-slot:footer>
                 <ButtonSpinner
-                    title="Run Tool"
+                    :title="localize('Run Tool')"
                     class="mt-3 mb-3"
                     :disabled="!canMutateHistory"
                     :wait="showExecuting"

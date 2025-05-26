@@ -438,7 +438,7 @@ defineExpose({
                 @change="addFileFromInput($event.target)" />
         </UploadBox>
         <div v-if="!disableFooter" class="upload-footer text-center">
-            <span v-if="isCollection" class="upload-footer-title">Collection:</span>
+            <span v-if="isCollection" class="upload-footer-title" v-localize>Collection:</span>
             <UploadSelect
                 v-if="isCollection"
                 class="upload-footer-collection-type"
@@ -448,7 +448,7 @@ defineExpose({
                 :searchable="false"
                 placeholder="Select Type"
                 @input="updateCollectionType" />
-            <span class="upload-footer-title">Type (set all):</span>
+            <span class="upload-footer-title" v-localize>Type (set all):</span>
             <UploadSelectExtension
                 class="upload-footer-extension"
                 :value="extension"
@@ -456,7 +456,7 @@ defineExpose({
                 :list-extensions="listExtensions"
                 @input="updateExtension">
             </UploadSelectExtension>
-            <span class="upload-footer-title">Reference (set all):</span>
+            <span class="upload-footer-title" v-localize>Reference (set all):</span>
             <UploadSelect
                 class="upload-footer-genome"
                 :value="dbKey"
