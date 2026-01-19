@@ -52,6 +52,7 @@ BACKENDS = {
     "egi_checkin": "social_core.backends.egi_checkin.EGICheckinOpenIdConnect",
     "oidc": "social_core.backends.open_id_connect.OpenIdConnectAuth",
     "tapis": "galaxy.authnz.tapis.TapisOAuth2",
+    "weixin": "galaxy.authnz.weixin.WeixinAuth2",
 }
 
 BACKENDS_NAME = {
@@ -66,6 +67,7 @@ BACKENDS_NAME = {
     "egi_checkin": "egi-checkin",
     "oidc": "oidc",
     "tapis": "tapis",
+    "weixin": "weixin",
 }
 
 AUTH_PIPELINE = (
